@@ -12,12 +12,16 @@ A Sublime Text package for quickly uploading text files to S3-compatible storage
 
 ## Installation
 
+### Via Package Control (Coming soon)
+
+<!--
 ### Via Package Control (Recommended)
 
 1. Install [Package Control](https://packagecontrol.io/installation)
 2. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 3. Run `Package Control: Install Package`
 4. Search for "ShareToS3" and install
+-->
 
 ### Manual Installation
 
