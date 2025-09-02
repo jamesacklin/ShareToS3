@@ -1,0 +1,18 @@
+{
+    // S3 endpoint URL (e.g., "https://s3.amazonaws.com" or your custom S3-compatible endpoint)
+    "s3_endpoint": "https://your-minio-server.com",
+    
+    // S3 access credentials
+    "s3_username": "your-access-key",
+    "s3_password": "your-secret-key",
+    
+    // Public URL prefix for accessing uploaded files
+    // This should be the public URL where your files will be accessible
+    "s3_url_prefix": "https://your-minio-server.com",
+    
+    // S3 bucket name (optional, defaults to "uploads")
+    "s3_bucket": "your-bucket-name",
+    
+    // AWS region (optional, defaults to "global" for MinIO)
+    "s3_region": "global"
+}
