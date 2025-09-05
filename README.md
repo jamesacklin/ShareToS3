@@ -28,21 +28,6 @@ A Sublime Text package for quickly uploading text files to S3-compatible storage
 1. Clone this repository to your Sublime Text Packages directory
 2. Restart Sublime Text
 
-### Build from Source
-
-1. Clone this repository
-2. Run the build script:
-   ```bash
-   cd utils
-   python build.py
-   ```
-3. Install the generated `dist/ShareToS3.sublime-package` file:
-   - Open Sublime Text
-   - Go to **Preferences → Browse Packages**
-   - Go up one level to the Sublime Text directory
-   - Copy `ShareToS3.sublime-package` to the `Installed Packages` folder
-   - Restart Sublime Text
-
 ## Configuration
 
 Configure your S3 settings via **Preferences → Package Settings → ShareToS3 → Settings - User**:
