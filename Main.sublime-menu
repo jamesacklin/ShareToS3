@@ -16,18 +16,12 @@
                         "children":
                         [
                             {
-                                "command": "open_file",
+                                "command": "edit_settings",
                                 "args": {
-                                    "file": "${packages}/Share to S3/ShareToS3.sublime-settings"
+                                    "base_file": "${packages}/ShareToS3/ShareToS3.sublime-settings",
+                                    "default": "// Settings in here override those in \"ShareToS3/ShareToS3.sublime-settings\"\n{\n\t$0\n}\n"
                                 },
-                                "caption": "Settings – Default"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/ShareToS3.sublime-settings"
-                                },
-                                "caption": "Settings – User"
+                                "caption": "Settings"
                             }
                         ]
                     }

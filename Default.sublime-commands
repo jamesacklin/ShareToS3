@@ -6,5 +6,13 @@
     {
         "caption": "ShareToS3: Upload Buffer with Custom Name",
         "command": "share_to_s3_with_custom_name"
+    },
+    {
+        "caption": "Preferences: ShareToS3 Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/ShareToS3/ShareToS3.sublime-settings",
+            "default": "// Settings in here override those in \"ShareToS3/ShareToS3.sublime-settings\"\n{\n\t$0\n}\n"
+        }
     }
 ]
